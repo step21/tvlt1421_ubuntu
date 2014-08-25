@@ -20,17 +20,21 @@ References for this script:
 # Usage
 
 This sets the thinkvision left and my HDMI1 monitor right of my main X1 carbon
-$ bash thinkvision-left-hdmi-right.bash on
+
+    $ bash thinkvision-left-hdmi-right.bash on
 
 This sets the thinkvision left
-$ bash thinkvision-set-left.bash on
+
+    $ bash thinkvision-set-left.bash on
 
 This sets the thinkvision right
-$ bash thinkvision-set-right.bash on
+
+    $ bash thinkvision-set-right.bash on
 
 Off can be used with any of the bash scripts
 ex:
-$ bash thinkvision-set-left.bash off
+
+    $ bash thinkvision-set-left.bash off
 
 Best to create an alias for these so you can use them quickly git
 
