@@ -38,3 +38,17 @@ ex:
 
 Best to create an alias for these so you can use them quickly git
 
+
+# To fit your needs
+
+Unless you are running an X1 carbon you might need to make this fit your needs
+ 
+Run
+
+    $ xrandr
+
+After you do this, look for the name of your monitor, mine on the X1 is LVDS1, I also have an HDMI monitor connected which comes up as HDMI1
+
+Once you know this, you can change the code in these files change them. Find where I have LVDS1 change that to your monitor. 
+
+
