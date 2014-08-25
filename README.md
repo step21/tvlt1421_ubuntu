@@ -3,7 +3,7 @@
 This is forked to work with my X1 Carbon & HDMI Monitor setup.
 
 This script is used to turn on or off a ThinkVision LT1421 USB monitor in 
-Ubuntu. It has been tested on Ubuntu 14.04 & Elemetary OS
+Ubuntu. It has been tested on Ubuntu 14.04 & Elementary OS Freya
 
 I am not a guru on bash scripting, nor am I an expert on DisplayLink, so any
 advice, expertise, questions, comments or concerns are all welcome such that
@@ -32,5 +32,5 @@ Off can be used with any of the bash scripts
 ex:
 $ bash thinkvision-set-left.bash off
 
-Best to create an alias for these so you can use them quickly 
+Best to create an alias for these so you can use them quickly git
 
