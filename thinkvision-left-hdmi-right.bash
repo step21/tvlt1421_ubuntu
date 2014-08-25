@@ -52,16 +52,16 @@ then
    xrandr --output $DVIN --off 
    xrandr --output HDMI1 --off
 
-sleep 5
+sleep 1
 
    xrandr --newmode "1368x768_59.90"  85.72  1368 1440 1584 1800  768 769 772 795  -HSync +Vsync
    xrandr --addmode $DVIN 1368x768_59.90
 
-sleep 5
+sleep 1
 
    xrandr --output HDMI1 --mode "1920x1080" --right-of LVDS1
 
-sleep 5
+sleep 1
    #xrandr --output $DVIN --off   
    # TODO - Makes the assumption the eDP1 is the primary montior. I do not know
    #        how often this holds true.  
