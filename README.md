@@ -19,6 +19,10 @@ References for this script:
 
 # Usage
 
+Make the *.bash scripts executable
+
+    $ chmod +x thinkvision-left-hdmi-right.bash thinkvision-set-left.bash thinkvision-set-right.bash
+
 This sets the thinkvision left and my HDMI1 monitor right of my main X1 carbon
 
     $ bash thinkvision-left-hdmi-right.bash on
