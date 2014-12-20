@@ -29,7 +29,8 @@ off)
 esac
 
 # get the number associated with the usb monitor (the X in DVI-X from the 
-DVIN=`xrandr | grep DVI* | cut -f1 -d' '`
+# doesn't work with more than 1 DVI
+DVIN=`xrandr | grep DVI.....connected | cut -f1 -d' '`
 
 #if [ -n "$DVIN" ]
    if [ "$DVIN" ]
@@ -44,7 +45,7 @@ fi
 # now try to turn on or off
 if [ "$1" == "on" ]
 then
-   xrandr --newmode "1368x768_59.90"  85.72  1368 1440 1584 1800  768 769 772 795  -HSync +Vsync
+   xrandr --newmode "1368x768_59.90"  59.90  1368 1440 1584 1800  768 769 772 795  -HSync +Vsync
    xrandr --addmode $DVIN 1368x768_59.90
    xrandr --output $DVIN --off
    xrandr --output $DVIN --mode "1368x768_59.90" --left-of LVDS1 #Set left of LVDS1 for X1's default monitor, if you use another monitor, change LVDS1 to match your monitor
