@@ -1,13 +1,9 @@
 # Thinkvision LT1421 Initializer
 
-This is forked to work with my X1 Carbon & HDMI Monitor setup.
+This for is to make the LT1421 USB screen work with Lenovo T400 which has more than 1 DVI in xrandr and different modelines.
 
-This script is used to turn on or off a ThinkVision LT1421 USB monitor in 
-Ubuntu. It has been tested on Ubuntu 14.04 & Elementary OS Freya
-
-I am not a guru on bash scripting, nor am I an expert on DisplayLink, so any
-advice, expertise, questions, comments or concerns are all welcome such that
-I may learn something. Bring it!
+This script is used to turn on or off a ThinkVision LT1421 USB monitor.
+It has been tested on Ubuntu 14.04.
 
 References for this script:
 
@@ -40,12 +36,12 @@ ex:
 
     $ bash thinkvision-set-left.bash off
 
-Best to create an alias for these so you can use them quickly git
+Best to create an alias for these so you can use them quickly
 
 
 # To fit your needs
 
-Unless you are running an X1 carbon you might need to make this fit your needs
+Depending on setup, regex and/or modelines might have to be adjusted.
  
 Run
 
