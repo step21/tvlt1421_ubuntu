@@ -31,7 +31,7 @@ esac
 # get the number associated with the usb monitor (the X in DVI-X from the 
 # output of xrandr).
 DVIN=`xrandr | grep DVI.....connected | cut -f1 -d' '`
-Þ
+
 #if [ -n "$DVIN" ]
    if [ "$DVIN" ]
 then
